@@ -1,5 +1,5 @@
 proxies:
-- name: "美国直连(naiveproxy)"
+- name: "美国自建直连(naiveproxy)"
   type: socks5
   server: 172.18.0.4
   port: 1080
