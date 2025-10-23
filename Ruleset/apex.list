@@ -1,6 +1,7 @@
 # > apex 域名类
 DOMAIN-SUFFIX,respawn.com
 DOMAIN-SUFFIX,tnt-ea.com
+DOMAIN-SUFFIX,epicgames.dev
 
 # > IP 类
 IP-CIDR,155.133.0.0/16,no-resolve
