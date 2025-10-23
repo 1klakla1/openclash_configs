@@ -16,7 +16,7 @@ DOMAIN-SUFFIX,epicgames.dev
 
 # > 影响服务器列表PING的域名
 #DOMAIN-KEYWORD,qos-nlb
-DOMAIN-REGEX,^.*qos-nlb.*amazonaws.*$
+DOMAIN-REGEX,^.*qos-nlb.*amazonaws.*$,no-resolve
 DOMAIN-KEYWORD,R5-pc
 DOMAIN-KEYWORD,R5-switch
 
