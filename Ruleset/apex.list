@@ -1,6 +1,7 @@
 #R5-pc.s3.amazonaws.com
 #R5-switch.s3.amazonaws.com
 #pr-5c2f1a37a251ff2a6a8c6eab.data.ea.com
+#gcs.ea.com
 
 #udp:影响服务器列表PING的域名
 #r5-pc-stats.stryder.respawn.com
