@@ -47,3 +47,7 @@ IP-CIDR,74.201.228.0/24,Apex,no-resolve
 IP-CIDR,13.226.0.0/15,Apex,no-resolve     # Amazon CloudFront Relay
 IP-CIDR,52.94.0.0/15,Apex,no-resolve      # AWS中继
 IP-CIDR,3.0.0.0/9,Apex,no-resolve         # EA Cloud服务分布区段
+IP-CIDR,15.181.201.0/24,no-resolve        # EA/AWS relay（北美）
+IP-CIDR,173.237.31.0/24,no-resolve        # Valve relay（美西）
+IP-CIDR,173.237.51.0/24,no-resolve        # Valve relay（美东）
+IP-CIDR,188.42.106.0/23,no-resolve        # Valve relay（欧洲）
