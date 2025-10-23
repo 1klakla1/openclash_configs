@@ -3,50 +3,50 @@ DOMAIN-SUFFIX,respawn.com
 DOMAIN-SUFFIX,tnt-ea.com
 
 # > IP 类
-IP-CIDR,155.133.0.0/16,Apex,no-resolve
-IP-CIDR,162.254.192.0/18,Apex,no-resolve
-IP-CIDR,162.213.192.0/19,Apex,no-resolve
-IP-CIDR,185.25.180.0/22,Apex,no-resolve
-IP-CIDR,188.42.190.0/23,Apex,no-resolve
-IP-CIDR,205.196.0.0/16,Apex,no-resolve
-IP-CIDR,23.251.100.0/24,Apex,no-resolve
-IP-CIDR,169.150.222.0/24,Apex,no-resolve
-IP-CIDR,45.121.184.0/24,Apex,no-resolve
-IP-CIDR,68.169.42.0/24,Apex,no-resolve
-IP-CIDR,74.201.228.0/24,Apex,no-resolve
-IP-CIDR,103.10.124.0/23,Apex,no-resolve
-IP-CIDR,103.28.54.0/24,Apex,no-resolve
-IP-CIDR,134.119.207.0/24,Apex,no-resolve
-IP-CIDR,146.66.152.0/22,Apex,no-resolve
-IP-CIDR,148.72.168.0/24,Apex,no-resolve
-IP-CIDR,172.255.8.0/24,Apex,no-resolve
-IP-CIDR,173.237.26.0/24,Apex,no-resolve
-IP-CIDR,173.237.41.0/24,Apex,no-resolve
-IP-CIDR,155.133.224.0/19,Apex,no-resolve
-IP-CIDR,162.254.192.0/18,Apex,no-resolve
-IP-CIDR,162.213.192.0/19,Apex,no-resolve
-IP-CIDR,205.196.0.0/16,Apex,no-resolve
-IP-CIDR,23.251.100.0/24,Apex,no-resolve
-IP-CIDR,169.150.222.0/24,Apex,no-resolve
-IP-CIDR,172.255.8.0/24,Apex,no-resolve
-IP-CIDR,173.237.26.0/24,Apex,no-resolve
-IP-CIDR,173.237.41.0/24,Apex,no-resolve
-IP-CIDR,45.121.184.0/24,Apex,no-resolve
-IP-CIDR,103.10.124.0/23,Apex,no-resolve
-IP-CIDR,103.28.54.0/24,Apex,no-resolve
-IP-CIDR,103.28.92.0/24,Apex,no-resolve
-IP-CIDR,103.29.130.0/23,Apex,no-resolve
-IP-CIDR,125.6.184.0/24,Apex,no-resolve
-IP-CIDR,146.66.152.0/22,Apex,no-resolve
-IP-CIDR,185.25.180.0/22,Apex,no-resolve
-IP-CIDR,188.42.190.0/23,Apex,no-resolve
-IP-CIDR,134.119.207.0/24,Apex,no-resolve
-IP-CIDR,148.72.168.0/24,Apex,no-resolve
-IP-CIDR,68.169.42.0/24,Apex,no-resolve
-IP-CIDR,74.201.228.0/24,Apex,no-resolve
-IP-CIDR,13.226.0.0/15,Apex,no-resolve     # Amazon CloudFront Relay
-IP-CIDR,52.94.0.0/15,Apex,no-resolve      # AWS中继
-IP-CIDR,3.0.0.0/9,Apex,no-resolve         # EA Cloud服务分布区段
+IP-CIDR,155.133.0.0/16,no-resolve
+IP-CIDR,162.254.192.0/18,no-resolve
+IP-CIDR,162.213.192.0/19,no-resolve
+IP-CIDR,185.25.180.0/22,no-resolve
+IP-CIDR,188.42.190.0/23,no-resolve
+IP-CIDR,205.196.0.0/16,no-resolve
+IP-CIDR,23.251.100.0/24,no-resolve
+IP-CIDR,169.150.222.0/24,no-resolve
+IP-CIDR,45.121.184.0/24,no-resolve
+IP-CIDR,68.169.42.0/24,no-resolve
+IP-CIDR,74.201.228.0/24,no-resolve
+IP-CIDR,103.10.124.0/23,no-resolve
+IP-CIDR,103.28.54.0/24,no-resolve
+IP-CIDR,134.119.207.0/24,no-resolve
+IP-CIDR,146.66.152.0/22,no-resolve
+IP-CIDR,148.72.168.0/24,no-resolve
+IP-CIDR,172.255.8.0/24,no-resolve
+IP-CIDR,173.237.26.0/24,no-resolve
+IP-CIDR,173.237.41.0/24,no-resolve
+IP-CIDR,155.133.224.0/19,no-resolve
+IP-CIDR,162.254.192.0/18,no-resolve
+IP-CIDR,162.213.192.0/19,no-resolve
+IP-CIDR,205.196.0.0/16,no-resolve
+IP-CIDR,23.251.100.0/24,no-resolve
+IP-CIDR,169.150.222.0/24,no-resolve
+IP-CIDR,172.255.8.0/24,no-resolve
+IP-CIDR,173.237.26.0/24,no-resolve
+IP-CIDR,173.237.41.0/24,no-resolve
+IP-CIDR,45.121.184.0/24,no-resolve
+IP-CIDR,103.10.124.0/23,no-resolve
+IP-CIDR,103.28.54.0/24,no-resolve
+IP-CIDR,103.28.92.0/24,no-resolve
+IP-CIDR,103.29.130.0/23,no-resolve
+IP-CIDR,125.6.184.0/24,no-resolve
+IP-CIDR,146.66.152.0/22,no-resolve
+IP-CIDR,185.25.180.0/22,no-resolve
+IP-CIDR,188.42.190.0/23,no-resolve
+IP-CIDR,134.119.207.0/24,no-resolve
+IP-CIDR,148.72.168.0/24,no-resolve
+IP-CIDR,68.169.42.0/24,no-resolve
+IP-CIDR,74.201.228.0/24,no-resolve
+IP-CIDR,13.226.0.0/15,no-resolve     # Amazon CloudFront Relay
+IP-CIDR,52.94.0.0/15,no-resolve      # AWS中继
+IP-CIDR,3.0.0.0/9,no-resolve         # EA Cloud服务分布区段
 IP-CIDR,15.181.201.0/24,no-resolve        # EA/AWS relay（北美）
 IP-CIDR,173.237.31.0/24,no-resolve        # Valve relay（美西）
 IP-CIDR,173.237.51.0/24,no-resolve        # Valve relay（美东）
