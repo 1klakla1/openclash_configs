@@ -1,4 +1,5 @@
 #R5-pc.s3.amazonaws.com
+#R5-switch.s3.amazonaws.com
 #pr-5c2f1a37a251ff2a6a8c6eab.data.ea.com
 
 #udp:影响服务器列表PING的域名
@@ -14,6 +15,9 @@ DOMAIN-SUFFIX,epicgames.dev
 
 # > 影响服务器列表PING的域名
 DOMAIN-KEYWORD,qos-nlb
+DOMAIN-KEYWORD,R5-pc
+DOMAIN-KEYWORD,R5-switch
+
 
 # > IP 类
 IP-CIDR,185.25.0.0/16,no-resolve
