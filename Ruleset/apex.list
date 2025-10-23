@@ -54,3 +54,4 @@ IP-CIDR,188.42.106.0/23,no-resolve        # Valve relay（欧洲）
 IP-CIDR,151.106.18.0/23,no-resolve
 IP-CIDR,148.72.174.135.0/23,no-resolve
 IP-CIDR,216.244.18.0/23,no-resolve
+IP-CIDR,148.72.174.0/23,no-resolve
