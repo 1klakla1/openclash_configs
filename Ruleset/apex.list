@@ -51,3 +51,4 @@ IP-CIDR,15.181.201.0/24,no-resolve        # EA/AWS relay（北美）
 IP-CIDR,173.237.31.0/24,no-resolve        # Valve relay（美西）
 IP-CIDR,173.237.51.0/24,no-resolve        # Valve relay（美东）
 IP-CIDR,188.42.106.0/23,no-resolve        # Valve relay（欧洲）
+IP-CIDR,151.106.18.0/23,no-resolve
