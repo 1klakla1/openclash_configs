@@ -8,8 +8,33 @@ DOMAIN-SUFFIX,r5-pc-stats.stryder.respawn.com
 #IP-CIDR,15.185.174.9/32,no-resolve
 
 # > NS端数据交换核心IP，UDP连接，端口8125
-IP-CIDR,34.214.99.199/32,no-resolve
+#IP-CIDR,34.214.99.199/32,no-resolve
 
 # > NS两个目标端口匹配测试
 #DST-PORT,8125,no-resolve
 #DST-PORT,7770,no-resolve
+
+# > IP段覆盖
+IP-CIDR,103.10.0.0/16,no-resolve
+IP-CIDR,103.28.0.0/16,no-resolve
+IP-CIDR,134.119.0.0/16,no-resolve
+IP-CIDR,146.66.0.0/16,no-resolve
+IP-CIDR,148.72.0.0/16,no-resolve
+IP-CIDR,151.106.0.0/16,no-resolve
+IP-CIDR,155.133.0.0/16,no-resolve
+IP-CIDR,162.213.0.0/16,no-resolve
+IP-CIDR,162.254.0.0/16,no-resolve
+IP-CIDR,169.150.0.0/16,no-resolve
+IP-CIDR,172.255.0.0/16,no-resolve
+IP-CIDR,173.237.0.0/16,no-resolve
+IP-CIDR,185.25.0.0/16,no-resolve
+IP-CIDR,188.42.0.0/16,no-resolve
+IP-CIDR,205.196.0.0/16,no-resolve
+IP-CIDR,23.251.0.0/16,no-resolve
+IP-CIDR,34.214.0.0/16,no-resolve
+IP-CIDR,45.121.0.0/16,no-resolve
+IP-CIDR,52.63.0.0/16,no-resolve
+IP-CIDR,68.169.0.0/16,no-resolve
+IP-CIDR,74.201.0.0/16,no-resolve
+IP-CIDR,15.181.0.0/16,no-resolve
+IP-CIDR,15.184.0.0/16,no-resolve
