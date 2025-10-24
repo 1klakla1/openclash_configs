@@ -13,4 +13,3 @@ DOMAIN-SUFFIX,r5-pc-stats.stryder.respawn.com
 # > NS两个目标端口匹配测试
 #DST-PORT,8125,no-resolve
 #DST-PORT,7770,no-resolve
-SRC-IP-CIDR,192.168.2.23/32,DST-PORT,7770,🖧 美国-故转
