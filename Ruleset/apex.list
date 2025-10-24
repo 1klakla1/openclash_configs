@@ -5,11 +5,13 @@ DOMAIN-REGEX,qos-nlb.*amazonaws\.com
 DOMAIN-SUFFIX,r5-pc-stats.stryder.respawn.com
 
 # > NS端影响服务器列表定位和PING的IP，UDP连接，端口7770
-IP-CIDR,15.185.174.9/32,no-resolve
+#IP-CIDR,15.185.174.9/32,no-resolve
 
 # > NS端数据交换核心IP，UDP连接，端口8125
-IP-CIDR,34.214.99.199/32,no-resolve
+#IP-CIDR,34.214.99.199/32,no-resolve
 
 # > NS两个目标端口匹配
-DST-PORT,8125,no-resolve
-DST-PORT,7770,no-resolve
+#DST-PORT,8125,no-resolve
+#DST-PORT,7770,no-resolve
+IP-CIDR,192.168.2.23/32,port=7770
+IP-CIDR,192.168.2.23/32,port=8125
