@@ -1,58 +1,56 @@
+#R5-pc.s3.amazonaws.com
+#R5-switch.s3.amazonaws.com
+#pr-5c2f1a37a251ff2a6a8c6eab.data.ea.com
+#gcs.ea.com
+
+#udp:影响服务器列表PING的域名
+#r5-pc-stats.stryder.respawn.com
+#qos-nlb-eu-central-1-a7e1db11a0d0e214.elb.eu-central-1.amazonaws.com
+#qos-nlb-ap-northeast-1-74f027761a451590.elb.ap-northeast-1.amazonaws.com
+#qos-nlb-me-south-1-09136acf0f4b8a15.elb.me-south-1.amazonaws.com
+
 # > apex 域名类
 DOMAIN-SUFFIX,respawn.com
 DOMAIN-SUFFIX,tnt-ea.com
 DOMAIN-SUFFIX,epicgames.dev
 
+# > 影响服务器列表PING的域名
+#DOMAIN-KEYWORD,qos-nlb
+DOMAIN-REGEX,qos-nlb.*amazonaws\.com
+DOMAIN-KEYWORD,R5-pc
+DOMAIN-KEYWORD,R5-switch
+
+
 # > IP 类
+IP-CIDR,185.25.0.0/16,no-resolve
+IP-CIDR,173.237.0.0/16,no-resolve
+IP-CIDR,169.150.0.0/16,no-resolve
+IP-CIDR,162.254.0.0/16,no-resolve
+IP-CIDR,162.213.0.0/16,no-resolve
 IP-CIDR,155.133.0.0/16,no-resolve
-IP-CIDR,162.254.192.0/18,no-resolve
-IP-CIDR,162.213.192.0/19,no-resolve
-IP-CIDR,185.25.180.0/22,no-resolve
-IP-CIDR,188.42.190.0/23,no-resolve
+IP-CIDR,148.72.0.0/16,no-resolve
+IP-CIDR,146.66.0.0/16,no-resolve
+IP-CIDR,134.119.0.0/16,no-resolve
+IP-CIDR,103.28.0.0/16,no-resolve
+IP-CIDR,103.10.0.0/16,no-resolve
+IP-CIDR,74.201.0.0/16,no-resolve
+IP-CIDR,68.169.0.0/16,no-resolve
+IP-CIDR,63.177.0.0/16,no-resolve
+IP-CIDR,45.121.0.0/16,no-resolve
+IP-CIDR,23.251.0.0/16,no-resolve
+IP-CIDR,15.181.0.0/16,no-resolve
+IP-CIDR,188.42.0.0/16,no-resolve
+IP-CIDR,151.106.0.0/16,no-resolve
 IP-CIDR,205.196.0.0/16,no-resolve
-IP-CIDR,23.251.100.0/24,no-resolve
-IP-CIDR,169.150.222.0/24,no-resolve
-IP-CIDR,45.121.184.0/24,no-resolve
-IP-CIDR,68.169.42.0/24,no-resolve
-IP-CIDR,74.201.228.0/24,no-resolve
-IP-CIDR,103.10.124.0/23,no-resolve
-IP-CIDR,103.28.54.0/24,no-resolve
-IP-CIDR,134.119.207.0/24,no-resolve
-IP-CIDR,146.66.152.0/22,no-resolve
-IP-CIDR,148.72.168.0/24,no-resolve
-IP-CIDR,172.255.8.0/24,no-resolve
-IP-CIDR,173.237.26.0/24,no-resolve
-IP-CIDR,173.237.41.0/24,no-resolve
-IP-CIDR,155.133.224.0/19,no-resolve
-IP-CIDR,162.254.192.0/18,no-resolve
-IP-CIDR,162.213.192.0/19,no-resolve
-IP-CIDR,205.196.0.0/16,no-resolve
-IP-CIDR,23.251.100.0/24,no-resolve
-IP-CIDR,169.150.222.0/24,no-resolve
-IP-CIDR,172.255.8.0/24,no-resolve
-IP-CIDR,173.237.26.0/24,no-resolve
-IP-CIDR,173.237.41.0/24,no-resolve
-IP-CIDR,45.121.184.0/24,no-resolve
-IP-CIDR,103.10.124.0/23,no-resolve
-IP-CIDR,103.28.54.0/24,no-resolve
-IP-CIDR,103.28.92.0/24,no-resolve
-IP-CIDR,103.29.130.0/23,no-resolve
-IP-CIDR,125.6.184.0/24,no-resolve
-IP-CIDR,146.66.152.0/22,no-resolve
-IP-CIDR,185.25.180.0/22,no-resolve
-IP-CIDR,188.42.190.0/23,no-resolve
-IP-CIDR,134.119.207.0/24,no-resolve
-IP-CIDR,148.72.168.0/24,no-resolve
-IP-CIDR,68.169.42.0/24,no-resolve
-IP-CIDR,74.201.228.0/24,no-resolve
-IP-CIDR,13.226.0.0/15,no-resolve     # Amazon CloudFront Relay
-IP-CIDR,52.94.0.0/15,no-resolve      # AWS中继
-IP-CIDR,3.0.0.0/9,no-resolve         # EA Cloud服务分布区段
-IP-CIDR,15.181.201.0/24,no-resolve        # EA/AWS relay（北美）
-IP-CIDR,173.237.31.0/24,no-resolve        # Valve relay（美西）
-IP-CIDR,173.237.51.0/24,no-resolve        # Valve relay（美东）
-IP-CIDR,188.42.106.0/23,no-resolve        # Valve relay（欧洲）
-IP-CIDR,151.106.18.0/23,no-resolve
-IP-CIDR,148.72.174.135.0/23,no-resolve
-IP-CIDR,216.244.18.0/23,no-resolve
-IP-CIDR,148.72.174.0/23,no-resolve
+IP-CIDR,159.153.0.0/16,no-resolve
+IP-CIDR,216.244.0.0/16,no-resolve
+IP-CIDR,54.89.0.0/16,no-resolve
+IP-CIDR,54.189.0.0/16,no-resolve
+IP-CIDR,98.82.0.0/16,no-resolve
+IP-CIDR,34.214.0.0/16,no-resolve
+IP-CIDR,35.170.0.0/16,no-resolve
+IP-CIDR,18.167.0.0/16,no-resolve
+IP-CIDR,172.255.0.0/16,no-resolve
+IP-CIDR,3.216.0.0/16,no-resolve
+IP-CIDR,54.172.0.0/16,no-resolve
+IP-CIDR,44.198.0.0/16,no-resolve
