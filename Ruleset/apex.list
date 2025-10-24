@@ -1,11 +1,12 @@
-# > 影响服务器列表PING的域名，UDP连接
+# > 影响服务器列表定位和PING的域名，UDP连接
 DOMAIN-REGEX,qos-nlb.*amazonaws\.com
 
 # > PC端数据交换核心域名，UDP连接
 DOMAIN-SUFFIX,r5-pc-stats.stryder.respawn.com
 
+# > NS端影响服务器列表定位和PING的IP，UDP连接
+IP-CIDR,15.185.174.9/32,no-resolve
+
 # > NS端数据交换核心IP，UDP连接
 IP-CIDR,34.214.99.199/32,no-resolve
 
-# > NS端持续连接IP，TCP连接
-IP-CIDR,54.175.114.252/32,no-resolve
