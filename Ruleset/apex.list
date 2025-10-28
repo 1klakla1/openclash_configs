@@ -7,6 +7,7 @@ DOMAIN-SUFFIX,r5-pc-stats.stryder.respawn.com
 # > NS两个目标端口匹配测试
 DST-PORT,8125,no-resolve
 DST-PORT,7770,no-resolve
+DST-PORT,10100,no-resolve
 
 # > NS平台检测IP覆盖难度较大，不考虑了。
 # > NS端影响服务器列表定位和PING的IP，UDP连接，端口7770
