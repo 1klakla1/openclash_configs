@@ -1,6 +1,3 @@
-# > 测试能否解决玩一会儿完整性报错
-#DOMAIN-REGEX,R5.*respawn\.com
-
 # > 影响服务器列表定位和PING的域名，UDP连接，端口7770
 DOMAIN-REGEX,qos-nlb.*amazonaws\.com
 
