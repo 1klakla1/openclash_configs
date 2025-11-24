@@ -13,37 +13,3 @@ DOMAIN-REGEX,R5-switch.*amazonaws\.com
 # > NS两个目标端口匹配测试
 DST-PORT,8125,no-resolve
 DST-PORT,7770,no-resolve
-
-# > IP 类
-IP-CIDR,185.25.0.0/16,no-resolve
-IP-CIDR,173.237.0.0/16,no-resolve
-IP-CIDR,169.150.0.0/16,no-resolve
-IP-CIDR,162.254.0.0/16,no-resolve
-IP-CIDR,162.213.0.0/16,no-resolve
-IP-CIDR,155.133.0.0/16,no-resolve
-IP-CIDR,148.72.0.0/16,no-resolve
-IP-CIDR,146.66.0.0/16,no-resolve
-IP-CIDR,134.119.0.0/16,no-resolve
-IP-CIDR,103.28.0.0/16,no-resolve
-IP-CIDR,103.10.0.0/16,no-resolve
-IP-CIDR,74.201.0.0/16,no-resolve
-IP-CIDR,68.169.0.0/16,no-resolve
-IP-CIDR,63.177.0.0/16,no-resolve
-IP-CIDR,45.121.0.0/16,no-resolve
-IP-CIDR,23.251.0.0/16,no-resolve
-IP-CIDR,15.181.0.0/16,no-resolve
-IP-CIDR,188.42.0.0/16,no-resolve
-IP-CIDR,151.106.0.0/16,no-resolve
-IP-CIDR,205.196.0.0/16,no-resolve
-IP-CIDR,159.153.0.0/16,no-resolve
-IP-CIDR,216.244.0.0/16,no-resolve
-IP-CIDR,54.89.0.0/16,no-resolve
-IP-CIDR,54.189.0.0/16,no-resolve
-IP-CIDR,98.82.0.0/16,no-resolve
-IP-CIDR,34.214.0.0/16,no-resolve
-IP-CIDR,35.170.0.0/16,no-resolve
-IP-CIDR,18.167.0.0/16,no-resolve
-IP-CIDR,172.255.0.0/16,no-resolve
-IP-CIDR,3.216.0.0/16,no-resolve
-IP-CIDR,54.172.0.0/16,no-resolve
-IP-CIDR,44.198.0.0/16,no-resolve
