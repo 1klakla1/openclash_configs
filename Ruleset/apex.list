@@ -9,6 +9,7 @@ DOMAIN-REGEX,R5-pc.*amazonaws\.com
 DOMAIN-REGEX,R5-switch.*amazonaws\.com
 
 # > PC端数据交换核心UDP连接，端口10100，打外卡发现的
+#这个端口去匹配意义不大，主要还是下面的服务器IP段。
 
 # > NS两个目标端口匹配测试（DNS改为路由下发以后不需要了）
 #DST-PORT,8125,no-resolve
