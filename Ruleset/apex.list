@@ -2,7 +2,7 @@
 DOMAIN-REGEX,qos-nlb.*amazonaws\.com
 
 # > PC端数据交换核心域名，UDP连接，端口8125
-DOMAIN-SUFFIX,r5-pc-stats.stryder.respawn.com
+DOMAIN-SUFFIX,R5-pc-stats.stryder.respawn.com
 
 # > PC补充域名
 DOMAIN-REGEX,R5-pc.*amazonaws\.com
