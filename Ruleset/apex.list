@@ -16,9 +16,8 @@ DOMAIN-REGEX,R5-switch.*amazonaws\.com
 #DST-PORT,7770,no-resolve
 
 # > IP 类
-#IP-CIDR,162.254.0.0/16,no-resolve
-#IP-CIDR,205.196.0.0/16,no-resolve
-#以上疑似是Steam的IP。
+IP-CIDR,162.254.0.0/16,no-resolve
+IP-CIDR,205.196.0.0/16,no-resolve
 IP-CIDR,185.25.0.0/16,no-resolve
 IP-CIDR,173.237.0.0/16,no-resolve
 IP-CIDR,169.150.0.0/16,no-resolve
