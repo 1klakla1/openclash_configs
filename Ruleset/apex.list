@@ -3,6 +3,7 @@ DOMAIN-REGEX,qos-nlb.*amazonaws\.com
 
 # > PC，NS端数据交换核心域名，UDP连接，端口8125
 DOMAIN-REGEX,R5-pc-stats.*respawn\.com
+DOMAIN-REGEX,r5-switch-stats.*respawn\.com
 
 # > PC补充域名
 DOMAIN-REGEX,R5-pc.*amazonaws\.com
