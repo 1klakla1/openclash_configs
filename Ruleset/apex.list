@@ -49,3 +49,5 @@ IP-CIDR,172.255.0.0/16,no-resolve
 IP-CIDR,3.216.0.0/16,no-resolve
 IP-CIDR,54.172.0.0/16,no-resolve
 IP-CIDR,44.198.0.0/16,no-resolve
+IP-CIDR,54.174.0.0/16,no-resolve
+IP-CIDR,52.40.0.0/16,no-resolve
